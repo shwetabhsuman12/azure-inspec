@@ -9,8 +9,9 @@ Contents:
 
 #-------------------------------------------------------------------------#
 1. Installation:
-	inspec can be installed using :
+	inspec can be installed on linux using :
              curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -P inspec
+         For other platform please refer REFERENCE[3]
 2. Azure platform support:
 
 
@@ -40,3 +41,5 @@ Contents:
 REFERENCES:
  1. https://docs.chef.io/inspec
  2. https://docs.chef.io/inspec/platforms/#azure-platform-support-in-inspec
+ 3. https://docs.chef.io/inspec/install/#cli-1
+
