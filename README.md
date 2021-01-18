@@ -7,7 +7,7 @@ Contents:
   2. Azure platform support
   3. AWS platform support
 
-
+#-------------------------------------------------------------------------#
 1. Installation:
 	inspec can be installed using :
              curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -P inspec
@@ -15,6 +15,7 @@ Contents:
 
 
 3. AWS platform support:
+
           As per the document, typically IAM is used for auditing activities in AWS.As mentioned in the reference[2], we are going to use IAM with read access on the EC2.
           1) Create IAM user and read access.
           2) Copy the User,Access key ID,Secret access key from the user created and set environment variables AWS_ACCESS_KEY_ID,AWS_SECRET_KEY_ID with the values.There are other options to use the credential file at default location ~/.aws/credentials 
