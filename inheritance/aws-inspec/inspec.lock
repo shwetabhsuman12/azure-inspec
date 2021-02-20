@@ -1,0 +1,8 @@
+---
+lockfile_version: 1
+depends:
+- name: inspec-aws
+  resolved_source:
+    path: "/home/hp/Desktop/POC/inspec/inheritance/archive/inspec-aws-master.zip"
+    sha256: eb7706af67ccb060057a74c6a220e544f23fb88f4f32f731b9d3380bf0680b79
+  version_constraints: []
